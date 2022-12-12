@@ -13,6 +13,7 @@
 		9DE0EC7629475B9A0066D359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0EC7429475B9A0066D359 /* Main.storyboard */; };
 		9DE0EC7829475B9C0066D359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0EC7729475B9C0066D359 /* Assets.xcassets */; };
 		9DE0EC7B29475B9C0066D359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0EC7929475B9C0066D359 /* LaunchScreen.storyboard */; };
+		9DE0EC8329475F340066D359 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0EC8229475F340066D359 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9DE0EC7729475B9C0066D359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE0EC7A29475B9C0066D359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE0EC7C29475B9C0066D359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE0EC8229475F340066D359 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		9DE0EC6229475B9A0066D359 = {
 			isa = PBXGroup;
 			children = (
+				9DE0EC8229475F340066D359 /* .gitignore */,
 				9DE0EC6D29475B9A0066D359 /* BigRed */,
 				9DE0EC6C29475B9A0066D359 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE0EC8329475F340066D359 /* .gitignore in Resources */,
 				9DE0EC7B29475B9C0066D359 /* LaunchScreen.storyboard in Resources */,
 				9DE0EC7829475B9C0066D359 /* Assets.xcassets in Resources */,
 				9DE0EC7629475B9A0066D359 /* Main.storyboard in Resources */,
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
